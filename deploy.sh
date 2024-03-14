@@ -23,10 +23,10 @@ npm -v
 
 sudo npm install -g pm2
 
-pm2 stop devopsec-ca2
-
 cd devopsec-ca2/
 
 npm install
+
+pm2 stop devopsec-ca2
 
 pm2 start ./bin/www --name devopsec-ca2
