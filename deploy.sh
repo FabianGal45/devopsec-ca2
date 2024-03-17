@@ -22,7 +22,7 @@ echo "npm version:"
 npm -v
 
 echo $PRIVATE_KEY > privatekey.pem
-echo $SERVER > server.ctr
+echo $SERVER > server.crt
 
 # install pm2 globally
 npm install -g pm2
